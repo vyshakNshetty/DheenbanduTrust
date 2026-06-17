@@ -1,0 +1,55 @@
+{
+  "title": "Make a Donation",
+  "subtitle": "Your generosity helps us reach more communities and create lasting change. Every donation, no matter the size, makes a difference.",
+  "form": {
+    "title": "Choose Your Donation"
+  },
+  "donationOptions": [
+    { "id": 1, "amount": 25 },
+    { "id": 2, "amount": 50 },
+    { "id": 3, "amount": 100 }
+  ],
+  "impact": {
+    "title": "Your Impact",
+    "items": [
+      {
+        "amount": 25,
+        "title": "School Supplies",
+        "description": "Provides school supplies for 5 children for an entire year."
+      },
+      {
+        "amount": 50,
+        "title": "Medical Care",
+        "description": "Funds medical treatment for a family in need."
+      },
+      {
+        "amount": 100,
+        "title": "Community Training",
+        "description": "Supports a community workshop for sustainable farming."
+      },
+      {
+        "amount": 250,
+        "title": "Build a Classroom",
+        "description": "Helps build a classroom for 30 students."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Where does my donation go?",
+      "answer": "95% of all donations go directly to our programs and projects. The remaining 5% covers essential operational costs."
+    },
+    {
+      "question": "Is my donation tax-deductible?",
+      "answer": "Yes, HopeBridge is a registered non-profit organization. All donations are tax-deductible to the extent allowed by law."
+    },
+    {
+      "question": "Can I donate monthly?",
+      "answer": "Absolutely! You can choose to make a monthly recurring donation to provide sustained support for our programs."
+    },
+    {
+      "question": "How do I get a receipt?",
+      "answer": "You will receive an email receipt immediately after your donation. You can also request a detailed receipt for tax purposes."
+    }
+  ]
+}
