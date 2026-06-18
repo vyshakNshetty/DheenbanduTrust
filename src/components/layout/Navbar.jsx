@@ -53,7 +53,7 @@ const Navbar = () => {
             <GiHand />
           </motion.div>
           <span className="bg-gradient-to-r from-primary-600 to-primary-700 bg-clip-text text-transparent">
-            HopeBridge
+            DheenbandhuTrust
           </span>
         </Link>
 

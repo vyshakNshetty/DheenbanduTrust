@@ -98,7 +98,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Stats Cards */}
-          <motion.div
+          {/* <motion.div
             variants={itemVariants}
             className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4"
           >
@@ -116,12 +116,12 @@ const Hero = () => {
                 <div className="text-sm text-gray-300 mt-1">{stat.label}</div>
               </motion.div>
             ))}
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 0.8, repeat: Infinity, repeatType: 'reverse' }}
@@ -137,7 +137,7 @@ const Hero = () => {
             />
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   )
 }

@@ -7,12 +7,12 @@ import { FaUsers, FaGlobe, FaHandshake, FaHeart } from 'react-icons/fa'
 const About = () => {
   const data = aboutData
 
-  const stats = [
-    { icon: FaUsers, value: '500+', label: 'Volunteers' },
-    { icon: FaGlobe, value: '30+', label: 'Countries' },
-    { icon: FaHandshake, value: '120+', label: 'Partners' },
-    { icon: FaHeart, value: '50K+', label: 'Lives Changed' },
-  ]
+  // const stats = [
+  //   { icon: FaUsers, value: '500+', label: 'Volunteers' },
+  //   { icon: FaGlobe, value: '30+', label: 'Countries' },
+  //   { icon: FaHandshake, value: '120+', label: 'Partners' },
+  //   { icon: FaHeart, value: '50K+', label: 'Lives Changed' },
+  // ]
 
   return (
     <>
@@ -94,7 +94,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="section-padding bg-gray-50 dark:bg-dark/50">
+      {/* <section className="section-padding bg-gray-50 dark:bg-dark/50">
         <div className="container-custom">
           <h2 className="text-3xl font-bold text-center text-dark dark:text-white mb-12">
             Our Impact
@@ -125,7 +125,7 @@ const About = () => {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section-padding">
         <div className="container-custom">
