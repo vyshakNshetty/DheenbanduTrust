@@ -1,5 +1,5 @@
 import React, { Suspense, lazy, useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import {  Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { ThemeProvider } from './context/ThemeContext'
 import { ToastProvider } from './context/ToastContext'
@@ -26,7 +26,7 @@ function App() {
     <HelmetProvider>
       <ThemeProvider>
         <ToastProvider>
-          <Router>
+          
             <ScrollToTop />
             <ErrorBoundary>
               <Suspense fallback={<LoadingSpinner fullScreen />}>
@@ -45,7 +45,7 @@ function App() {
                 </Routes>
               </Suspense>
             </ErrorBoundary>
-          </Router>
+          
         </ToastProvider>
       </ThemeProvider>
     </HelmetProvider>
