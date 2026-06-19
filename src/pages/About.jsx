@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import aboutData from '../data/about.json'
 import { FaUsers, FaGlobe, FaHandshake, FaHeart } from 'react-icons/fa'
@@ -16,10 +16,10 @@ const About = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>About Us — HopeBridge</title>
         <meta name="description" content="Learn about HopeBridge's mission, vision, and impact in empowering communities worldwide." />
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">

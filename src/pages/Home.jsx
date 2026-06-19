@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 
 // Lazy load sections
@@ -17,10 +17,10 @@ const Newsletter = lazy(() => import('../components/sections/Newsletter'))
 const Home = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>HopeBridge — Empowering Communities, Transforming Lives</title>
         <meta name="description" content="Join HopeBridge in our mission to empower communities through education, healthcare, and sustainable development." />
-      </Helmet>
+      </Helmet> */}
 
       <Suspense fallback={<LoadingSpinner fullScreen />}>
         <Hero />

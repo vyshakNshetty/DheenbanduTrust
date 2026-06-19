@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { FaHome, FaSearch } from 'react-icons/fa'
 
 const NotFound = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Page Not Found — HopeBridge</title>
-      </Helmet>
+      </Helmet> */}
 
       <div className="min-h-screen flex items-center justify-center bg-white dark:bg-dark px-4">
         <motion.div

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import contactData from '../data/contact.json'
@@ -28,10 +28,10 @@ const Contact = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Contact Us — HopeBridge</title>
         <meta name="description" content="Get in touch with HopeBridge. We'd love to hear from you and answer any questions about our work." />
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">

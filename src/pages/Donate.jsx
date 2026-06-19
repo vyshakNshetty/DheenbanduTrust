@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import donateData from '../data/donate.json'
 import { FaHeart, FaHandshake, FaShieldAlt, FaCheckCircle, FaArrowRight } from 'react-icons/fa'
@@ -26,10 +26,10 @@ const Donate = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Donate — HopeBridge</title>
         <meta name="description" content="Make a donation to HopeBridge and help us create lasting change in communities worldwide." />
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">

@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import galleryData from '../data/gallery.json'
@@ -39,10 +39,10 @@ const Gallery = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Gallery — HopeBridge</title>
         <meta name="description" content="Explore moments of impact through HopeBridge's photo gallery from our programs worldwide." />
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">

@@ -1,6 +1,6 @@
 import React, { Suspense, lazy, useEffect } from 'react'
 import {  Routes, Route } from 'react-router-dom'
-import { HelmetProvider } from 'react-helmet-async'
+
 import { ThemeProvider } from './context/ThemeContext'
 import { ToastProvider } from './context/ToastContext'
 import LoadingSpinner from './components/common/LoadingSpinner'
@@ -23,7 +23,7 @@ const Layout = lazy(() => import('./components/layout/Layout'))
 
 function App() {
   return (
-    <HelmetProvider>
+    
       <ThemeProvider>
         <ToastProvider>
           
@@ -48,7 +48,7 @@ function App() {
           
         </ToastProvider>
       </ThemeProvider>
-    </HelmetProvider>
+    
   )
 }
 

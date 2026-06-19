@@ -1,13 +1,13 @@
 import React from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 
 const Terms = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Terms of Service — HopeBridge</title>
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">

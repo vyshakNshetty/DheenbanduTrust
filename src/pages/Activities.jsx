@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import activitiesData from '../data/activities.json'
 import { FaCalendarAlt, FaMapMarkerAlt, FaUsers, FaClock } from 'react-icons/fa'
@@ -16,10 +16,10 @@ const Activities = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Our Activities — HopeBridge</title>
         <meta name="description" content="Explore HopeBridge's ongoing activities and programs making a difference worldwide." />
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">

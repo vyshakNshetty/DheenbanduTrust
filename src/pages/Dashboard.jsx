@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import DashboardLayout from '../components/dashboard/DashboardLayout'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 
@@ -14,9 +14,9 @@ const Settings = lazy(() => import('../components/dashboard/Settings'))
 const Dashboard = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Dashboard — HopeBridge</title>
-      </Helmet>
+      </Helmet> */}
 
       <DashboardLayout>
         <Suspense fallback={<LoadingSpinner />}>

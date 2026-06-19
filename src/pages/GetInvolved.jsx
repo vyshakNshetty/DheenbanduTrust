@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+// import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import getInvolvedData from '../data/getInvolved.json'
@@ -38,10 +38,10 @@ const GetInvolved = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Get Involved — HopeBridge</title>
         <meta name="description" content="Join HopeBridge as a volunteer, donor, or partner and help us make a difference in communities worldwide." />
-      </Helmet>
+      </Helmet> */}
 
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary-50 to-white dark:from-dark dark:to-dark/80">
         <div className="container-custom">
